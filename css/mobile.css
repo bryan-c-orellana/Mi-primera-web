@@ -1,0 +1,111 @@
+@media (max-width: 600px) {
+
+/* PARTE DEL TITULO  */
+
+.titulo-principal {
+  font-size: 40px;
+  color: white;
+  padding: 5px;
+  background-color: black;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.main-section {
+  display: none;
+}
+
+/* TERMINA PARTE TITULO */
+
+
+/* EMPIEZA PARTE CV */
+
+.resumen-cv{
+  display: inherit;
+}
+
+.img-perfil {
+  width: 100%;
+}
+
+.historia {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: black;
+  height: 450px;
+}
+
+.historia h2 {
+  padding: 20px 15px 10px 15px;
+}
+
+.historia p {
+  font-size: 16px;
+  padding: 20px 15px 10px 15px;
+}
+
+.historia a {
+ text-decoration: underline;
+ font-size: 12px;
+ font-weight: 200;
+ text-transform: uppercase;
+}
+
+br {
+  display: none;
+}
+
+
+/* PARTE DE FORMULARIO */
+
+.container-contacto {
+  /* max-width: 900px; */
+  align-items: center;
+  text-align: center;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.suscripcion {
+  display: none;
+}
+.datos p{
+  text-align: center;
+}
+
+.datos br{
+  display: inherit;
+}
+
+.datos span {
+  text-align: center;
+}
+
+}
+
+
+@media (max-width: 380px) {
+  .historia {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    height: 544px;
+}
+
+.historia h2 {
+  padding: 20px 15px 0px 15px;
+  font-size: 35px;
+}
+
+.titulo-trabajos {
+  text-align: center;
+  margin-top: 35px;
+}
+
+
+}

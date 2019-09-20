@@ -1,0 +1,93 @@
+/* ANIMACION DEL LOGO PRINCIPAL  */
+
+.container-logo:hover .main-section{
+  transform: rotate(180deg);
+}
+
+.main-section{
+  transition: .3s;
+}
+
+/* TERMINA ANIMACION DEL LOGO PRINCIPAL */
+
+.fadeIn{
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+
+  -webkit-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInDown{
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%,0);
+    transform: translate3d(0, -100%,0);
+}
+
+  to{
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0,0);
+    transform: translate3d(0, 0,0);
+  }
+
+}
+
+/* ANIMACION DE LA FRASE PRINCIPAL */
+
+.titulo-principal:hover .titulo-section{
+  transform:translateX(100px);
+}
+
+.titulo-section{
+  transition: 3s;
+}
+
+.fadeInRight{
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+
+  -webkit-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInRight{
+  from{
+      opacity:0;
+      -webkit-transform:translateX(100px);
+      transform:translateX(100px)
+  }
+  to{
+      opacity:1;
+      -webkit-transform:translateX(0);
+      transform:translateX(0);
+  }
+
+
+
